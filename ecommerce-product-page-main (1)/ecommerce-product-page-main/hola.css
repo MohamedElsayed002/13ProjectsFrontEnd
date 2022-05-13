@@ -1,0 +1,47 @@
+header {
+  padding: 10px;
+  margin: 50px;
+  display: flex;
+  justify-content: space-between;
+  max-height: 60px;
+}
+nav ul {
+  display: flex;
+}
+nav ul li {
+  list-style: none;
+  margin-right: 20px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: hsl(219deg, 9%, 45%);
+}
+nav ul li a:hover {
+  color: black;
+}
+
+section {
+  display: flex;
+}
+section .left-side {
+  width: 50%;
+}
+section .left-side img {
+  width: 80%;
+  padding: 10px auto;
+}
+section .right-side {
+  width: 50%;
+}
+section .right-side .para {
+  color: hsl(26deg, 100%, 55%);
+  font-size: 26px;
+  font-weight: bolder;
+}
+section .right-side .tag {
+  color: rgba(0, 0, 0, 0.75);
+  font-size: 60px;
+}
+section .right-side .white {
+  color: rgba(0, 0, 0, 0.75);
+}/*# sourceMappingURL=hola.css.map */

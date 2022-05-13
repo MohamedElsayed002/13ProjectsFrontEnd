@@ -1,0 +1,33 @@
+body {
+    font-size: 16px;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+* {
+    --orange-color: hsl(26, 100%, 55%);
+    --pale-orange: hsl(25, 100%, 94%);
+    --vark-blue: hsl(220, 13%, 13%);
+    --Dark-grayish: hsl(219, 9%, 45%);
+    --light-grayish: hsl(220, 14%, 75%);
+}
+
+header {
+    max-height: 112px;
+}
+
+header .hi img {
+    width: 50px;
+    margin-left: 10px;
+}
+
+section .big img {
+    width: 450px;
+    height: 450px;
+    margin: 10px;
+}
+
+section .small img {
+    width: 90px;
+    height: 90px;
+    margin: 10px;
+}
